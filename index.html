@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Portofolio Muhamad Adrian, mahasiswa Teknik Informatika Universitas Pamulang yang berfokus pada pengembangan web.">
+<meta name="theme-color" content="#7c3aed">
+<title>Portofolio | Muhamad Adrian</title>
+<link rel="stylesheet" href="style.css">
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+
+<!-- Background interaktif -->
+<div class="bg" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="blob b4"></span>
+    <div class="glow" id="glow"></div>
+    <canvas id="net"></canvas>
+</div>
+<div class="progress" id="bar" aria-hidden="true"></div>
+
+<header><div class="wrap"><nav>
+<a href="#home" class="logo">Muhamad Adrian</a>
+<ul id="links">
+<li><a href="#tentang">Tentang</a></li>
+<li><a href="#pendidikan">Pendidikan</a></li>
+<li><a href="#skill">Keahlian</a></li>
+<li><a href="#proyek">Proyek</a></li>
+<li><a href="#pengalaman">Pengalaman</a></li>
+<li><a href="#kontak">Kontak</a></li>
+</ul>
+<div><button id="theme" aria-label="Ganti tema">🌓</button> <button id="menu" aria-label="Menu" aria-expanded="false">☰</button></div>
+</nav></div></header>
+
+<main class="wrap">
+<div class="hero" id="home">
+<div class="avatar-wrap"><img class="ph avatar" src="images/Potosaya.jpeg" alt="Foto Muhamad Adrian"></div>
+<p class="hi">Halo, saya</p>
+<h1>Muhamad Adrian</h1>
+<p class="role">Saya seorang <span id="typed">Mahasiswa Teknik Informatika</span><span class="caret" aria-hidden="true"></span></p>
+<p class="sub">Lulusan SMA yang kuat di bidang Teknologi Informasi. Berpengalaman di industri F&amp;B dan event yang mengasah kemampuan kerja tim, komunikasi, dan adaptasi. Saat ini sedang menempuh studi Teknik Informatika di Universitas Pamulang dan berkeinginan bekerja di bidang IT.</p>
+<div class="btns"><a class="btn" href="#proyek">Lihat Proyek</a><a class="btn alt" href="#kontak">Hubungi Saya</a></div>
+</div>
+
+<section id="tentang" class="reveal">
+<h2>Tentang Saya</h2>
+<p>Mahasiswa Teknik Informatika Universitas Pamulang (2023 – sekarang) yang berfokus pada pengembangan web dan sistem informasi. Terbiasa membangun aplikasi berbasis PHP dan MySQL dengan antarmuka HTML, CSS, dan JavaScript. Pengalaman di industri F&amp;B dan event melatih kerja tim, komunikasi, ketelitian, serta ketahanan menghadapi target dan deadline. Berkeinginan berkarier di bidang IT dan terbuka untuk kesempatan magang atau posisi entry-level.</p>
+</section>
+
+<section id="pendidikan" class="reveal">
+<h2>Pendidikan</h2>
+<div class="grid">
+<article class="card"><h3>Universitas Pamulang</h3><p>Teknik Informatika</p><div class="tags"><span class="tag">2023 – sekarang</span></div></article>
+<article class="card"><h3>SMAN 57 Jakarta</h3><p>Ilmu Pengetahuan Sosial</p><div class="tags"><span class="tag">2018 – 2021</span></div></article>
+</div>
+</section>
+
+<section id="skill" class="reveal">
+<h2>Keahlian</h2>
+<div class="skills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>PHP</span><span>SQL</span></div>
+</section>
+
+<section id="proyek" class="reveal">
+<h2>Proyek</h2>
+<div class="grid">
+<article class="card"><img class="ph thumb" src="images/Dakara.png" alt="Tampilan aplikasi inventory" loading="lazy"><h3>Aplikasi Inventory</h3><p>Saya membuat aplikasi inventory ini untuk mengatasi permasalahan stok barang di sebuah coffee shop.</p><div class="tags"><span class="tag">PHP</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></article>
+<article class="card"><img class="ph thumb" src="images/Signature%20english.png" alt="Tampilan website company profile" loading="lazy"><h3>Company Profile</h3><p>Saya membuat website ini untuk tugas pengabdian kepada masyarakat di kampus saya.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></article>
+<article class="card"><img class="ph thumb" src="images/website.png" alt="Tampilan website pribadi" loading="lazy"><h3>Website Pribadi</h3><p>Saya membuat website pribadi ini untuk mengasah dan memperdalam ilmu pemrograman saya.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></article>
+<article class="card"><img class="ph thumb" src="images/Spk.png" alt="Tampilan sistem pendukung keputusan karyawan terbaik" loading="lazy"><h3>SPK Karyawan Terbaik</h3><p>Sistem pendukung keputusan berbasis kriteria untuk membantu menentukan karyawan terbaik secara objektif.</p><div class="tags"><span class="tag">PHP</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></article>
+</div>
+</section>
+
+<section id="pengalaman" class="reveal">
+<h2>Pekerjaan Non IT</h2>
+<div class="grid">
+<article class="card"><img class="ph thumb" src="images/Pizza.jpeg" alt="Suasana kerja di Pizza Cartel" loading="lazy"><h3>Pizza Cartel</h3><ul><li>Bertanggung jawab penuh dalam persiapan dan proses produksi pizza.</li><li>Beradaptasi dengan lingkungan kerja yang dinamis dan berkolaborasi secara efektif dengan tim.</li></ul><div class="tags"><span class="tag">Baker</span><span class="tag">Responsibility</span><span class="tag">Beradaptasi</span></div></article>
+<article class="card"><img class="ph thumb" src="images/asia.jpg" alt="Kegiatan event bersama Activate Asia" loading="lazy"><h3>Activate Asia</h3><ul><li>Bekerja sama dalam tim untuk memastikan kelancaran event.</li><li>Mengejar target dan deadline yang telah ditentukan.</li></ul><div class="tags"><span class="tag">Work Team</span><span class="tag">Sales</span><span class="tag">Target</span></div></article>
+<article class="card"><img class="ph thumb" src="images/dakara1.jpeg" alt="Suasana kerja di Dakara Coffee and Tea" loading="lazy"><h3>Dakara Coffee and Tea</h3><ul><li>Bertanggung jawab atas operasional harian kedai kopi.</li><li>Menguasai berbagai metode brewing, dari manual brew (V60, Japanese, Vietnam drip) hingga espresso.</li></ul><div class="tags"><span class="tag">Calibration</span><span class="tag">Manual Brew</span><span class="tag">Latte art</span></div></article>
+</div>
+</section>
+
+<section id="kontak" class="reveal">
+<h2>Kontak</h2>
+<p class="lead">Tertarik bekerja sama? Hubungi saya lewat:</p>
+<div class="btns">
+    <a class="btn" href="https://wa.me/6289618746710?text=Halo%2C%20dengan%20Adrian%3F" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="btn alt" href="mailto:adrianmuhamad499@gmail.com">Email</a>
+    <a class="btn alt" href="https://github.com/MuhamadAdrian22" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn alt" href="https://www.linkedin.com/in/muhamad-adrian-8762892b7" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn alt" href="https://muhamadadrian22.github.io/Profil-Pribadi-1.1/" target="_blank" rel="noopener">Presentasiku</a>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> Muhamad Adrian.</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
